@@ -12,6 +12,7 @@ It can also help dealing with multiple projects at the same time.
 
 This guide will focus on a single tool that achieves all three points.
 See the end of the guide for alternatives.
+You can also check out this [guide](https://whiteboxml.com/blog/the-definitive-guide-to-python-virtual-environments-with-conda), more detailled (but skips on mamba).
 
 ## Micromamba
 

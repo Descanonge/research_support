@@ -11,7 +11,7 @@ You can contact <isabelle.bauwe@sorbonne-universite.fr> it the UFR TEB. She mana
 
 Another nice choice is the lecture hall Charpak (22-33 at level 0, for about 60+ people?). It is managed by the LPNHE lab; you can ask for a reservation here: https://lpnhe.in2p3.fr/limesurvey/index.php.
 
-You can book other lecture halls in Jussieu (such as Astier or Durand in the Esclangon building, or any hall at the base of each tower). They generally have a good projection and sound system and can accomodate more people.
+You can book other lecture halls in Jussieu (such as Astier or Durand in the Esclangon building, or any hall at the base of each tower). They generally have a good projection and sound system and can accommodate more people.
 You can do the reservation by contacting <sciences-DLM-planning@sorbonne-universite.fr>.
 
 Both the UFR room and Charpak hall should be equipped for video conferencing **but this is not the case for every room/lecture hall!** If not equipped, you must make an additional reservation for the equipment (microphones, camera), ask either Isabelle or sciences-DLM-planning.
@@ -23,7 +23,7 @@ Don't hesitate to ask for the phone of the 'appariteurs' (they will open the roo
 All the checking in the world won't protect you from random and weird technical problems though. It might be a good idea to have a backup plan for things that could break: internet (ethernet, eduroam, 4G ?), your slides (have you a pdf backup? have you videos or animations that could not work?), video conferencing (backup mic), or even your laptop!
 **Be sure to have a safety-friend:** they can have a second laptop with your presentation in case of a problem, they can manage your video conference and cut off mics of noisy boomers (though note you may miss the most unexpected, unhinged comments from our senior citizens about your haircut or appearance 🤗).
 
-Note that for any reservation you will need to give your name, surname, mail adress, phone number, the name·s of your PhD supervisor·s, the approximate number of people to accomodate, and wether you will need video conferencing.
+Note that for any reservation you will need to give your name, surname, mail address, phone number, the name·s of your PhD supervisor·s, the approximate number of people to accommodate, and whether you will need video conferencing.
 
 ## Invite jury members
 

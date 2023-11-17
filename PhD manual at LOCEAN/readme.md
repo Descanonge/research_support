@@ -115,3 +115,11 @@ Let's try to avoid too much network consumption by synchronizing only what is ne
 
 NB: You can also use a client for your phone (there are Nextcloud applications).
 
+## Password manager
+
+You noticed you already have multiple credentials to remember... And it's not going to get better.
+We **highly** recommend you use a password manager to track all of those.
+This avoid using weak password by generating them at random (no even if you write in leet, 'ilov3c4ts' is going to get cracked *very* easily).
+For most managers, browsers extensions and phone apps exists which makes everything very easy.
+
+Bitwarden and ... are free and open-source.

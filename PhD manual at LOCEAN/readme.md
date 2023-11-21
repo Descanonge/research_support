@@ -1,6 +1,4 @@
-# Specific informations for LOCEAN
-
-[[_TOC_]]
+# Information specific for LOCEAN
 
 ## Lab documentation
 
@@ -112,7 +110,7 @@ You can save this folder as a shortcut in your file manager for easy access.
 
 NB: You can also use a client for your phone (there are Nextcloud applications).
 
-If you are concerned about having saves and backup for your files, using git is also a very good solution for text files. We cover it lightly in this [section](/intro.md#git)
+If you are concerned about having saves and backup for your files, using git is also a very good solution for text files. We cover it lightly in this [section](/intro.md#git).
 
 ## Password manager
 
@@ -121,7 +119,7 @@ We **highly** recommend you use a password manager to track all of those.
 This avoid using weak password by generating them at random (no even if you write in leet, 'ilov3c4ts' is going to get cracked *very* easily).
 A lot of software exists with plenty of features which makes everything very easy.
 
-I can personally recommend [Bitwarden](https://bitwarden.com/): open source and free[^1], with plenty of features. It runs on pretty much everything (from your browser, browser extension, phone app, client for computer, even with linux command-line!). Your passwords and other info are stored encrypted on servers, on the plus side you can access it from anywhere, but some could see this as a liability.
+I can personally recommend [Bitwarden](https://bitwarden.com/): open source and free[^1], with plenty of features. It runs on pretty much everything (from your browser, browser extension, phone app, client for computer, even with linux command-line!). Your passwords and other info are stored encrypted on servers, on the plus side you can access it from anywhere but some could see this as a liability.
 
 Are there some more that you have tested ?
 

@@ -1,24 +1,27 @@
 # Specific informations for LOCEAN
 
+[[_TOC_]]
+
 ## Lab documentation
 
 There is already existing documentation for/by the lab.
 
-The **welcome booklet** is currently available on the DropSU cloud storage (as of 2023-11-05). You will need a Sorbonne login, hopefully this is temporary until we get a better intranet and/or more stable documentation.
-- https://dropsu.sorbonne-universite.fr/f/193630834 (in english)
-- https://dropsu.sorbonne-universite.fr/f/193630819 (in french)
-If you have trouble accessing it ask to a senior PhD.
-
-The **IT documentation** covers more technical subjects: mail, wifi, VPN, printers, etc. It is available *in french* in the intranet at http://info.locean-ipsl.upmc.fr/fr/.
-This means you need either:
+1) The **welcome booklet** is currently available on the intranet.
+This means to have access you need either:
 - to be connected by ethernet at the lab, which requires an approved machine.
 - to use the proxy (see below)
 
-Of course you can find more 'informal' information in this repository (more like folk's know-how), and if you still have questions you can open an issue here, or send a mail to the [IT team](http://info.locean-ipsl.upmc.fr/fr/support/).
+- https://intranet.locean-ipsl.upmc.fr/wp-content/uploads/2023/11/LOCEAN-Welcome-booklet-for-newcomers-vCompact-vIMP.pdf (in english)
+- https://intranet.locean-ipsl.upmc.fr/wp-content/uploads/2023/11/LOCEAN-Livret-accueil-nouveaux-arrivants-vCompact-vIMP.pdf (in french)
+If you have trouble accessing it ask to a senior PhD.
+
+2) The **IT documentation** covers more technical subjects: mail, wifi, VPN, printers, etc. It is available *only in french* on the intranet at http://info.locean-ipsl.upmc.fr/fr/.
+
+3) And of course you can find more 'informal' information in this repository (more like folk's know-how), and if you still have questions you can open an issue here, or send a mail to the [IT team](http://info.locean-ipsl.upmc.fr/fr/support/).
 
 ## Proxy setup
 
-You can use the proxy to access some lab resources from the outside (intranet, cloud). It also gives you access to some reviews.
+You can use the proxy to access some lab resources from the outside (intranet, cloud). It also gives you access to some publications (journals' websites should automatically detect it and give you access).
 You can set it up in your browser settings (for Firefox: Settings > General > Network settings > Configure how Firefox connects to the internet > Manual proxy).
 You can also use an extension to quickly activate or deactivate the proxy, like [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/), also available for Chrome.
 
@@ -55,19 +58,15 @@ VERIFY ERROR: depth=0, error=CA signature digest algorithm too weak: C=FR, L=Guy
 OpenSSL: error:0A000086:SSL routines::certificate verify failed
 ```
 
-The person in charge should have been notified by now but things are moving slowly...
-You can find workarounds allow the use of weak signature by more or less disabling the certificate signature check.
-Needless to say this is not a good idea and is a security risk. I cannot explain it publicly here, but if this is an *absolute necessity* I guess someone knows how to do it in 426.
+The administrators (LOCEAN and IPSL) know about it, but updating things imply to redistribute the certificates which will involve some administrative decision taking (thus there is some inertia...). Hopefully it should be dealt with in the coming months. 
 
-If not working, prefer the alternatives of the proxy and the SSH bridge.
+Note that you can find workarounds by more or less disabling the certificate signature check. Needless to say this is not a good idea and is a security risk. The alternatives (proxy and SSH bridge to cerbere) should suffice in the mean time.
 
 
 ## Visio
 
 CNRS is providing a Zoom account. Go to https://cnrs.zoom.us and sign-in using Janus.
-
 To use the client, when signing-in use the SSO (Single Sign-On) button. Specify `cnrs` as the company domain. This will then redirect you towards Janus authentication in the browser.
-
 More information [here](https://ods.cnrs.fr/zoom-cnrs.php).
 
 To install on Linux (Ubuntu or debian) if you are root, download the `.deb` file from https://zoom.us/download and then run:
@@ -103,23 +102,27 @@ You can access it in your browser at https://cloud.ipsl.fr with your lab credent
 You can also use a local client to synchronize your files automatically. It should be already installed on your machine, under the name of the Nextcloud client.
 To set it up, just give the url of the cloud above, and sign in normally in the browser that should have opened.
 You can then setup one or more directories to synchronize automatically.
-
-You can also access to your files on the cloud without synchronizing by using the WebDAV protocol.
-It is actually really easy: go to [your files](https://cloud.ipsl.fr/index.php/apps/files/) on the browser and click on 'Files settings' in the lower left corner. Copy the url under WebDAV.
-Enter this url in your file manager path bar (for some other clients you might have to do some different manipulations, check this [wiki page](https://wiki.archlinux.org/title/WebDAV#Client)), and replace `https` by `davs`: it should look something like this: `davs://cloud.ipsl.fr/remote.php/dav/files/some-long-token`.
-Enter your credentials once more, and you should have direct access to the files on your cloud!
-
-You can save this address as a shortcut for easy access.
-It's obviously up to you but a nice workflow is to have this shortcut when you want to look at your remote files from your machine, and have some select folders here and there that you actively synchronize.
 Let's try to avoid too much network consumption by synchronizing only what is necessary.
 
+If you don't want to use the client, or want to avoid synchronization on some files (that you edit very frequently perhaps), you can also access to your remote files directly in your file manager.
+It is actually really easy: go to [your files](https://cloud.ipsl.fr/index.php/apps/files/) on the browser and click on 'Files settings' in the lower left corner. Copy the url under WebDAV.
+Enter this url in your file manager path bar (for some software you might have to do different manipulations, check this [wiki page](https://wiki.archlinux.org/title/WebDAV#Client)), and replace `https` by `davs`: it should look something like this: `davs://cloud.ipsl.fr/remote.php/dav/files/some-long-token`.
+Enter your credentials once more, and you should have direct access to the files on your cloud!
+You can save this folder as a shortcut in your file manager for easy access.
+
 NB: You can also use a client for your phone (there are Nextcloud applications).
+
+If you are concerned about having saves and backup for your files, using git is also a very good solution for text files. We cover it lightly in this [section](/intro.md#git)
 
 ## Password manager
 
 You noticed you already have multiple credentials to remember... And it's not going to get better.
 We **highly** recommend you use a password manager to track all of those.
 This avoid using weak password by generating them at random (no even if you write in leet, 'ilov3c4ts' is going to get cracked *very* easily).
-For most managers, browsers extensions and phone apps exists which makes everything very easy.
+A lot of software exists with plenty of features which makes everything very easy.
 
-Bitwarden and ... are free and open-source.
+I can personally recommend [Bitwarden](https://bitwarden.com/): open source and free[^1], with plenty of features. It runs on pretty much everything (from your browser, browser extension, phone app, client for computer, even with linux command-line!). Your passwords and other info are stored encrypted on servers, on the plus side you can access it from anywhere, but some could see this as a liability.
+
+Are there some more that you have tested ?
+
+[^1]: There is a free version that should more than cover your needs, and paid plans are really cheap should you need them.

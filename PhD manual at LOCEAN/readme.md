@@ -111,6 +111,7 @@ You can save this folder as a shortcut in your file manager for easy access.
 NB: You can also use a client for your phone (there are Nextcloud applications).
 
 If you are concerned about having saves and backup for your files, using git is also a very good solution for text files. We cover it lightly in this [section](/intro.md#git).
+TODO: CHANGE LINK
 
 ## Password manager
 

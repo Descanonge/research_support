@@ -14,7 +14,7 @@ For those at LOCEAN, [that guide](PhD manual at LOCEAN/readme.md) contains more 
 ## Some guidelines
 
 Please try to keep each issue on a single question/topic.
-Before opening an issue, please look wheter your question has already been asked.
+Before opening an issue, please look wether your question has already been asked.
 If an issue already exists but has no answer, don't hesitate to 'bump' it by replying to it.
 
 When a question has been resolved, please consider saving the proposed solution in the repository, in an existing file or a new one.
@@ -27,16 +27,52 @@ documents: name with _tips, _guide, _example ?
 
 ## roadmap
 
-D'ici la prochaine fois (à définir) : 
-Ecrire 1-2 (3 max) howto qui nous inspirent, les pusher, en discuter 5 min et convenir d'une meeting/gouter/workshop où tous les intéressés qui ont des solutions viennent contribuer à ce beau projet. -> mieux définir les questions/fichiers que l'on va ajouter
+Idées de trucs à compléter:
+- [x] eduroam
+  intranet seems complicated but quite easy instead
+  look at the sorbonne website ? put the link on
 
-On aimerait le tourner autour de question pratiques (opérationnels) comme : 
-- comment ouvrir un jupyter notebook sur tel calculateur
-- je n'arrive pas à compiler NEMO
-- Comment j'ai contourné cartopy pour plotter à l'échelle globale machin
-- base code pour plotter un truc
--> gallery de tips et de tricks qui ont nécessité un peu de travail/débug/débrouillardise
+- demande de mission, étamine
+  it depends on the tutelle
+  what to do and when ?
+  a manual in pdf for CNRS exists -> added
 
-discussions et issues : nouvelles questions auxquelles il n'y pas encore de markdown près
+- [x] carte de cantine
+  si pas payé par sorbonne ?
+
+- [ ] latex
+  cnrs gives overleaf
+
+- [ ] microsoft office, comment acheter ?
+
+- [x] spirit, compile Nemo
+
+- [ ] reserve a room, ask for a key, ask for a specific office
+
+- [ ] CSD documentation
+
+- [ ] présenter les gars de l'info, add location
+
+- [ ] models: how to run commands, compile
+  it depends on the machine (jenazay, irene, ...)
+
+- [x] basic bash
+  demander à Sébastien ?
+
+- [ ] where data, what are the repo
+
+- [ ] download from CMEMS
+
+- [ ] bibliography tools
+
+- [ ] websites to find biblio
+
+- [ ] thesis templates
+
+- [ ] how to github
+
+- [ ] how to markdown
+
+- [x] cdo, nco
 
 Obselecense : stack ce qui est vieux -> peut toujours servir

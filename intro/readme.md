@@ -11,7 +11,7 @@ Some of the key subjects you might need or want to check out.
 
 ## Python
 
-[Setting up](Using Python/setting_up.md)
+[Setting up](Python/setting_up.md)
 
 ## Writing
 

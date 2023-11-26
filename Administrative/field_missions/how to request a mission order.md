@@ -1,17 +1,24 @@
-Warning : pdf "Guide missionaire avant mission et retour mission - CNRS", source needed for these docs, sent to me by J.Boutin, but should find the source before making the repository public. 
 
-How to ask for a mission order (for a CNRS agent / mission using CNRS fees) :
+# How to ask for a mission order (for a CNRS agent / mission using CNRS fees) :
+
+Refer to the attached pdf docs ([here](./GUIDE MISSIONNAIRE_AVANT MISSION_V1.1.pdf) and [here](./GUIDE MISSIONNAIRE_RETOUR MISSION_V1.1.pdf)) for the detailed procedure of mission request for a CNRS agent.
+
+"Guide missionaire avant mission et retour mission - CNRS", source needed for these docs, sent to me by J.Boutin, but the source should be findable.
 
 - Enter the travel plan in Mon petit Carbone: https://carbone.locean-ipsl.upmc.fr/login.
   Download the form in pdf format to attach it to your mission order request.
 - Request a mission order to Etamines: https://etamine-connecte.cnrs.fr
+
+  Specify:
+  ``` text
   Spending entity: 
   Origin: 
   Validator: 
-  Attach the Mon petit carbon form
+  ```
+  and attach the Mon petit carbon form.
   Estimated transport costs via Goelett: https://travel.goelett.com/gtms/UserTrips
 
-(If you are attached to Sorbonne and the administration also ask you for a SU (Sorbonne Unviersity) source of funding to do a SU mission order without fees, you also have to sign it and send it back to the administration before they can validate your mission request on Etamine.)
+(If you are attached to Sorbonne and the administration also ask you for a SU (Sorbonne University) source of funding to do a SU mission order without fees, you also have to sign it and send it back to the administration before they can validate your mission request on Etamine.)
 
 - This request must then be validated by management before plane tickets can be reserved.
 - Reservations are made via the Notilus interface: https://esr-cnrs.notilus-inone.fr/#/Dashboard
@@ -24,8 +31,6 @@ How to ask for a mission order (for a CNRS agent / mission using CNRS fees) :
 - You should get the confirmation emails for your tickets
 - Download your mission order (it should be signed)
 
-  Refer yourself to the attached pdf docs for the detailed procedure of mission request for a CNRS agent.
-  (warning : source should be added first !)
-  
+
 
 

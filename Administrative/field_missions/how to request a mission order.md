@@ -1,7 +1,7 @@
 
 # How to ask for a mission order (for a CNRS agent / mission using CNRS fees) :
 
-Refer to the attached pdf docs ([here](./GUIDE MISSIONNAIRE_AVANT MISSION_V1.1.pdf) and [here](./GUIDE MISSIONNAIRE_RETOUR MISSION_V1.1.pdf)) for the detailed procedure of mission request for a CNRS agent.
+Refer to the attached pdf docs ([here](./GUIDE MISSIONNAIRE_AVANT MISSION_V1.1.pdf) and [here](./GUIDE MISSIONNAIRE_RETOUR MISSION-V1.1.pdf)) for the detailed procedure of mission request for a CNRS agent.
 
 "Guide missionaire avant mission et retour mission - CNRS", source needed for these docs, sent to me by J.Boutin, but the source should be findable.
 

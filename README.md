@@ -8,12 +8,12 @@ Hopefully it will help to share knowledge between lab members.
 Guides and collections of tips and tricks are kept as files, sorted in folders by themes. (We may implement a way to obtain an index as well.)
 Questions can be asked (and answered) by anyone by using the github issues.
 
-For newcomers, we highlight [this guide](intro) which should cover the bases.
-For those at LOCEAN, [that guide](PhD manual at LOCEAN/readme.md) contains more specific information and links to other internal documentations.
+For newcomers, we highlight the [guides here](intro) which should cover the bases, in particular the [welcome guide](intro/welcome guide.md) for our friends coming from outside France.
+For those at LOCEAN, the [guides here](Administrative/readme.md) contain more specific information and links to other internal documentations.
 
 ## Contributing
 
-To contribute, for now we are using forks and pull-requests. If you don't know what this means, this [section](intro/git.md#Contributing to this repository) of the [git guide](intro/git.md) covers exactly this.
+To contribute, for now we are using forks and pull-requests. If you don't know what this means, this [section](intro/git.md#contributing-to-this-repository) of the [git guide](intro/git.md) covers exactly this.
 
 Github can show a large variety of files, so you can contribute with python scripts, jupyter notebooks, bash scripts, and more.
 The default format though is markdown, which is very easy to write and quite powerful. Check the [github documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) about it, this will get you started in no time.

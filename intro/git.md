@@ -100,8 +100,8 @@ Instead of working directly on the original Github repository (`Descanonge/resea
 *This implies that you have to create a Github account* if you do not have one already.
 To fork the project, click on the 'fork' button at the top right of the main repository page. You can keep everything as default, even the name does not need to be changed.
 
-You are now on *your* version of the repository (`https://github.com/your-useranem/research_support`) and you can do all the modifications you want.
-You can use the browser editors (see this section [](The Editor)), or clone the repository and work on your computer (like we did in the section [Starting a project](Starting a project)).
+You are now on *your* version of the repository (`https://github.com/your-username/research_support`) and you can do all the modifications you want.
+You can use the browser editors (see the section [the Editor](the-editor)), or clone the repository and work on your computer (like we did in the section [Starting a project](starting-a-project)).
 
 Once you are done, everything is pushed, you should be able send those changes back to the original repository by asking a '*pull-request*' (or PR). To do this, on the main page of your repository, click on 'Contribute', under the green '<> Code' button.
 The administrators of the repository will receive a notification and can validate your changes. You can check this process at https://github.com/Descanonge/research_support/pulls.

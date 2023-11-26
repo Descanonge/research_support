@@ -4,6 +4,7 @@
 
 We would like to warmly welcome you to Paris and LOCEAN! Here, you will have the opportunity to advance and improve your scientific skills in a dynamic and innovative environment. And we can’t forget to mention, the people working here are great as well -- have the best of fun working here!
 In this welcome guide, we would like to give some pointers about arriving at the laboratory (the “lab”) and to help make the transition to Paris as smooth and efficient as possible. Maybe this is your first time being in France or just your first official position in academia or postdoc, whatever the terms, both of us were new to working in Paris (and France as a whole) and wanted to share our experiences with all incoming postdocs, PhDs, or visiting scientists. This guide will step you through obtaining your official email address, access to the computer network, obtaining a metro card, and even some details on how to file taxes (although we are far from experts on that!). We will also include some ideas on how to get around in Paris and explore more of the countryside. Hopefully this guide will be helpful and ease you into the Parisian lifestyle!
+
 Version 0.2 General life
 
 ## Appartment Hunting 

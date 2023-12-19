@@ -24,14 +24,17 @@ They are different products for different regions: **GLO** (Global), **ACR** (Ar
 
 They are available at two levels of processing: **L3** and **L4** which is an interpolated version of L3 that removes clouds / invalid pixels.
 
-**Importantly**, they are two versions of the MY global product.
+**Importantly**, they are two versions of the MY global product:
 
-1. ESA-OC-CCI: this processing is part of the Climate Change Initiative which aims at producing data for climate variables which can be use to track climate trends. Data produced by PML (Plymouth Marine Laboratory), succeeding to BC (Brockmann Consult)
-2. Copernicus-GlobColour: Data produced by ACRI-ST using the "GlobColour processing", developped for the project of the same name. 
+1. **ESA-OC-CCI**: this processing is part of the Climate Change Initiative which aims at producing data for climate variables which can be use to track climate trends. Data produced by PML (Plymouth Marine Laboratory), succeeding to BC (Brockmann Consult)
+2. **Copernicus-GlobColour**: Data produced by ACRI-ST using the "GlobColour processing", developped for the project of the same name. 
 
 More on their differences later.
 
-Each combinaison of the parameters listed has a code:
+Data is available at a resolution of 4km for global and 1km for regional products.
+Products contain standard datasets obtained with as much sensors as possible, and sometime alternative datasets restricted to Sentinel-3 OLCI data with higher resolution (1km or 300m), generally around coast only.
+
+Here are the available products:
 
 <table>
 <thead>
@@ -159,8 +162,22 @@ Each combinaison of the parameters listed has a code:
 </table>
 
 That should help you get around on the CMEMS.
-All these informations (and more details) can be found in the GlobColour user manual (the one on CMEMS): https://catalogue.marine.copernicus.eu/documents/PUM/CMEMS-OC-PUM.pdf
-
-## The GlobColour-ACRI product
+All these informations and more details (especially on the variables available in different datasets) can be found in the GlobColour user manual (the one on CMEMS): https://catalogue.marine.copernicus.eu/documents/PUM/CMEMS-OC-PUM.pdf
 
 ## Differences OC-CCI / Copernicus-GlobColour
+
+Both products use different processing to get the same data.
+Maybe most notably, in Copernicus-GlobColour the Chl is computed for each sensor *then* merge the Chl of all sensor. On the contrary, in OC-CCI the reflectances are merged across sensors and *then* the Chl is computed.
+You can find some details in this paper: [Garnesson et al. 2019](https://doi.org/10.5194/os-15-819-2019). 
+
+Both products are multi-year re-analyses, and should be appropriate to study long-term trends, however it is the explicit goal of the OC-CCI version. The [documentation](https://climate.esa.int/en/projects/ocean-colour/key-documents/) on the CCI website goes into more details on how they verify the Chl variable as a valid CDR (climate data record).
+
+## The "GlobColour-ACRI" product
+
+For some reason, the ACRI-ST ftp website distributes some ocean color products. It is maybe some kind of leftovers from before "standardisation" by the OCTAS-CMEMS.
+You can find information about them here: https://globcolour.info/CDR_Docs/GlobCOLOUR_PUG.pdf and there: https://hermes.acri.fr
+
+I guess I would not recommend it unless you have a reason for it.
+
+Note that they distribute two versions: AVW (weighted average) where the Chl of all sensors are merged, and GSM (Garver, Siegel, Maritorena model) where the merge the reflectance before computing the Chl.
+Some people are more familiar with those acronym.

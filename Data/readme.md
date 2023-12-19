@@ -2,7 +2,7 @@
 
 Some data can be confusing, there may be many different versions, treatment methods, etc.
 
-Add your finds, to help guide the non-experts. (In a section below or its own document in this directory if there much to say.)
+Add your find and expertise, either in a section below, or its own document if there is much to say.
 
 ## Bathymethry
 

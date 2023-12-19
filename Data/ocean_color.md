@@ -33,138 +33,127 @@ More on their differences later.
 
 Each combinaison of the parameters listed has a code:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
-.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-ztna{background-color:#409cff;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-ru5h{background-color:#409cff;border-color:#ffffff;color:#ffffff;text-align:center;vertical-align:top}
-.tg .tg-9zno{background-color:#ebf5ff;border-color:#9abad9;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-6gz9{background-color:#ebf5ff;border-color:#9abad9;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
+<table>
 <thead>
   <tr>
-    <th class="tg-ztna" rowspan="3">Region</th>
-    <th class="tg-ztna" rowspan="3">Producer</th>
-    <th class="tg-ztna" colspan="4">Multi-Sensor</th>
-    <th class="tg-ztna" colspan="4">Sentinel-3 OLCI</th>
+    <th rowspan="3">Region</th>
+    <th rowspan="3">Producer</th>
+    <th colspan="4">Multi-Sensor</th>
+    <th colspan="4">Sentinel-3 OLCI</th>
   </tr>
   <tr>
-    <th class="tg-ru5h" colspan="2">NRT</th>
-    <th class="tg-ru5h" colspan="2">MY</th>
-    <th class="tg-ru5h" colspan="2">NRT</th>
-    <th class="tg-ru5h" colspan="2">MY</th>
+    <th colspan="2">NRT</th>
+    <th colspan="2">MY</th>
+    <th colspan="2">NRT</th>
+    <th colspan="2">MY</th>
   </tr>
   <tr>
-    <th class="tg-ru5h">L3</th>
-    <th class="tg-ru5h">L4</th>
-    <th class="tg-ru5h">L3</th>
-    <th class="tg-ru5h">L4</th>
-    <th class="tg-ru5h">L3</th>
-    <th class="tg-ru5h">L4</th>
-    <th class="tg-ru5h">L3</th>
-    <th class="tg-ru5h">L4</th>
+    <th>L3</th>
+    <th>L4</th>
+    <th>L3</th>
+    <th>L4</th>
+    <th>L3</th>
+    <th>L4</th>
+    <th>L3</th>
+    <th>L4</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-9zno">GLO</td>
-    <td class="tg-9zno">ACRI</td>
-    <td class="tg-6gz9">101</td>
-    <td class="tg-6gz9">102</td>
-    <td class="tg-6gz9">103</td>
-    <td class="tg-6gz9">104</td>
-    <td class="tg-6gz9">101</td>
-    <td class="tg-6gz9">102</td>
-    <td class="tg-6gz9">103</td>
-    <td class="tg-6gz9">104</td>
+    <td>GLO</td>
+    <td>ACRI</td>
+    <td>101</td>
+    <td>102</td>
+    <td>103</td>
+    <td>104</td>
+    <td>101</td>
+    <td>102</td>
+    <td>103</td>
+    <td>104</td>
   </tr>
   <tr>
-    <td class="tg-9zno">GLO</td>
-    <td class="tg-9zno">PML</td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9">107</td>
-    <td class="tg-6gz9">108</td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
+    <td>GLO</td>
+    <td>PML</td>
+    <td></td>
+    <td></td>
+    <td>107</td>
+    <td>108</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-9zno">ATL</td>
-    <td class="tg-9zno">PML</td>
-    <td class="tg-6gz9">111</td>
-    <td class="tg-6gz9">112</td>
-    <td class="tg-6gz9">113</td>
-    <td class="tg-6gz9">114</td>
-    <td class="tg-6gz9">111</td>
-    <td class="tg-6gz9">112</td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
+    <td>ATL</td>
+    <td>PML</td>
+    <td>111</td>
+    <td>112</td>
+    <td>113</td>
+    <td>114</td>
+    <td>111</td>
+    <td>112</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-9zno">ATL</td>
-    <td class="tg-9zno">ACRI</td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9">116</td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9">118</td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
+    <td>ATL</td>
+    <td>ACRI</td>
+    <td></td>
+    <td>116</td>
+    <td></td>
+    <td>118</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-9zno">ARC</td>
-    <td class="tg-9zno">CNR</td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9">123</td>
-    <td class="tg-6gz9">124</td>
-    <td class="tg-6gz9">121</td>
-    <td class="tg-6gz9">122</td>
-    <td class="tg-6gz9">123</td>
-    <td class="tg-6gz9">124</td>
+    <td>ARC</td>
+    <td>CNR</td>
+    <td></td>
+    <td></td>
+    <td>123</td>
+    <td>124</td>
+    <td>121</td>
+    <td>122</td>
+    <td>123</td>
+    <td>124</td>
   </tr>
   <tr>
-    <td class="tg-9zno">BAL</td>
-    <td class="tg-9zno">CNR</td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9"></td>
-    <td class="tg-6gz9">133</td>
-    <td class="tg-6gz9">134</td>
-    <td class="tg-6gz9">131</td>
-    <td class="tg-6gz9">132</td>
-    <td class="tg-6gz9">133</td>
-    <td class="tg-6gz9">134</td>
+    <td>BAL</td>
+    <td>CNR</td>
+    <td></td>
+    <td></td>
+    <td>133</td>
+    <td>134</td>
+    <td>131</td>
+    <td>132</td>
+    <td>133</td>
+    <td>134</td>
   </tr>
   <tr>
-    <td class="tg-9zno">MED</td>
-    <td class="tg-9zno">CNR</td>
-    <td class="tg-6gz9">141</td>
-    <td class="tg-6gz9">142</td>
-    <td class="tg-6gz9">143</td>
-    <td class="tg-6gz9">144</td>
-    <td class="tg-6gz9">141</td>
-    <td class="tg-6gz9">142</td>
-    <td class="tg-6gz9">143</td>
-    <td class="tg-6gz9">144</td>
+    <td>MED</td>
+    <td>CNR</td>
+    <td>141</td>
+    <td>142</td>
+    <td>143</td>
+    <td>144</td>
+    <td>141</td>
+    <td>142</td>
+    <td>143</td>
+    <td>144</td>
   </tr>
   <tr>
-    <td class="tg-9zno">BLK</td>
-    <td class="tg-9zno">CNR</td>
-    <td class="tg-6gz9">151</td>
-    <td class="tg-6gz9">152</td>
-    <td class="tg-6gz9">153</td>
-    <td class="tg-6gz9">154</td>
-    <td class="tg-6gz9">151</td>
-    <td class="tg-6gz9">152</td>
-    <td class="tg-6gz9">153</td>
-    <td class="tg-6gz9">154</td>
+    <td>BLK</td>
+    <td>CNR</td>
+    <td>151</td>
+    <td>152</td>
+    <td>153</td>
+    <td>154</td>
+    <td>151</td>
+    <td>152</td>
+    <td>153</td>
+    <td>154</td>
   </tr>
 </tbody>
 </table>

@@ -58,9 +58,16 @@ OpenSSL: error:0A000086:SSL routines::certificate verify failed
 
 The administrators (LOCEAN and IPSL) know about it, but updating things imply to redistribute the certificates which will involve some administrative decision taking (thus there is some inertia...). Hopefully it should be dealt with in the coming months. 
 
-Note that you can find workarounds by more or less disabling the certificate signature check. Needless to say this is not a good idea and is a security risk. The alternatives (proxy and SSH bridge to cerbere) should suffice in the mean time.
+Note that you can find workarounds by more or less disabling the certificate signature check. Needless to say this is not a good idea and is a security risk. The alternatives (proxy and SSH bridge to cerbere) should suffice in the mean time. 
 
+However, SSH bridge to cerbere is only allowed for registered computer, meaning that you can't use your own device. But you can still access to IPSL machines through ssh and vpn. 
 
+To this end you need to add : 
+``` shell
+tls-cipher=DEFAULT:@SECLEVEL=0 
+```
+in the vpn part of file `/etc/NetworkManager/system-connections/[connectionname].nmconnection`
+(you need administrator rights to achieve this) 
 ## Visio
 
 CNRS is providing a Zoom account. Go to https://cnrs.zoom.us and sign-in using Janus.

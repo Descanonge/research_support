@@ -10,7 +10,7 @@ Afterwads, follow the instructions below :
 python ./eduroam-linux-UdL.py
 ```
 and follow the given instructions (fill your instituion email accouant and your password).
-- Get to your wifi parameters, select eduroam settings and fill it according to the picture
+- Get to your wifi parameters, select eduroam settings and fill it according to the picture ![wifi settings](./wifi_settings_linux.png)
 
 Apply the new settings and it should work ! 
 

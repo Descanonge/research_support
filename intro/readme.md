@@ -15,6 +15,8 @@ Some of the key subjects you might need or want to check out.
 
 ## Writing
 
+[Latex](Latex)
+
 ## Editors
 
 Don't hesitate to add software that you think is missing in this section.

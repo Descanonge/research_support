@@ -4,6 +4,21 @@ Some data can be confusing, there may be many different versions, treatment meth
 
 Add your find and expertise, either in a section below, or its own document if there is much to say.
 
+## CMEMS
+
+aka Copernicus Marine Environment Monitoring Service aka Copernicus Marine Service.
+You'll find all kind of data over there: https://data.marine.copernicus.eu/products
+
+To download it efficiently, you can use the brand new Copernicus Marine Toolbox™.
+All the information about it can be found in the (quite extensive) [documentation](https://help.marine.copernicus.eu/en/articles/7949409-copernicus-marine-toolbox-introduction).
+
+Watch out: the latest version is `copernicusmarine`, **not** `copernicus-marine-client`.
+Also this has replaced `motu`, goodbye Motu, you will not be missed.
+
+You may want to use the subset command (to extract a sub-region, or only certain variables, etc.) but it will concatenate everything in a single Netcdf file (if you are using Netcdf and not Zarr in which case this does not concern you), but you may want to have daily files, or weekly files, or whatever-frequency-files.
+I got you: [this script](./copernicusmarine-subset-multifile.py) extend the command to automatically make multiple calls and save the file into whatever path you need them.
+*Warning though, it's not thoroughly tested.*
+
 ## Bathymethry
 
 You can find bathymetry data at the [ETOPO](https://www.ncei.noaa.gov/products/etopo-global-relief-model) project (NCEI/NOAA).

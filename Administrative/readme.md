@@ -32,11 +32,7 @@ You can also use an extension to quickly activate or deactivate the proxy, like 
 
 The VPN allows to redirect all your internet traffic through the IPSL (whereas the proxy only works for the http protocol, and thus is less secure).
 
-To setup the VPN, you first need to go to the intranet [here](http://info.locean-ipsl.upmc.fr/fr/reseau-distant/#vpn) and download the configuration files.
-You can extract them for instance in `~/.config/vpn-ipsl` or a similar location.
-You should have a certificate (`ca.crt`), a PGP key (`ta.key`), and a configuration file (`vpn-ipsl.ovpn`).
-
-Follow the instructions on the intranet to install it.
+To setup the VPN, follow the instructions on the intranet to install it.
 
 The username should be: `<LOCEAN login (initial + family name)>@locean.ipsl.fr`.
 The password is your LOCEAN password.
@@ -55,10 +51,7 @@ You will then find those lines in the output:
 VERIFY ERROR: depth=0, error=CA signature digest algorithm too weak: C=FR, L=Guyancourt, O=LATMOS, OU=LATMOS, CN=vpn.ipsl.upmc.fr, emailAddress=xxxx@latmos.ipsl.fr, serial=25
 OpenSSL: error:0A000086:SSL routines::certificate verify failed
 ```
-The administrators (LOCEAN and IPSL) know about it, but updating things imply to redistribute the certificates which will involve some administrative decision taking (thus there is some inertia...). Hopefully it should be dealt with in the coming months. 
-
-Note that you can find workarounds by more or less disabling the certificate signature check. Needless to say this is not a good idea and is a security risk. The alternatives (proxy and SSH bridge to cerbere) should suffice in the mean time.
-
+The administrators (LOCEAN and IPSL) know about it, but updating things imply to redistribute the certificates which will involve some administrative decision taking (thus it requires some time). Hopefully it should be dealt with in the coming months. 
 
 ## Visio
 

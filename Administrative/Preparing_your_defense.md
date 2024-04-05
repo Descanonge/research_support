@@ -20,8 +20,16 @@ In any case it is best to check if everything is working before the defense. Ask
 The Sorbonne website indicates that lecture halls are only available for 3 hours *but this is not the case*, tell them this is for a PhD defense and ask for a longer reservation.
 Don't hesitate to ask for the phone of the 'appariteurs' (they will open the room and give you the equipment).
 
-All the checking in the world won't protect you from random and weird technical problems though. It might be a good idea to have a backup plan for things that could break: internet (ethernet, eduroam, 4G ?), your slides (have you a pdf backup? have you videos or animations that could not work?), video conferencing (backup mic), or even your laptop!
-**Be sure to have a safety-friend:** they can have a second laptop with your presentation in case of a problem, they can manage your video conference and cut off mics of noisy boomers (though note you may miss the most unexpected, unhinged comments from our senior citizens about your haircut or appearance 🤗).
+## Prior to the defense
+
+It is advisable to adhere to the guidelines provided on the ADUM website. Two key steps to remember include: i) printing the blank Procès-Verbal form, which will be completed by the committee during the defense, and ii) sending the 'DÉLÉGATION DE SIGNATURE AU PRÉSIDENT DU JURY DE SOUTENANCE' for signature to jury members participating remotely, and subsequently transmitting it to the future president of the jury.
+
+Providing water to the jury members during the defense is always appreciated. Consider providing water bottles or containers for this purpose. Additionally, it is advisable to print copies of the manuscript for reference during the defense. While some senior supervisors may recommend providing one manuscript to each jury member, this approach is debatable, particularly since final corrections may be made after the defense.
+## During the defense
+
+All the checking in the world won't protect you from random and weird technical problems though. It might be a good idea to have a backup plan for things that could break: internet (ethernet, eduroam, 4G ?), your slides (have you a pdf backup? powerpoint? have you videos or animations that could not work? slides exported in other format breaking some figures?), video conferencing (backup mic), or even your laptop!
+
+**Be sure to have a safety-friend:** they can have a second laptop with your presentation in case of a problem, they can manage your video conference and cut off mics of noisy boomers (though note you may miss the most unexpected, unhinged comments from our senior citizens about your haircut or appearance 🤗). Furthermore, in the event that your PhD defense is conducted via a Zoom session, it is advisable to delegate the role of 'host' to multiple backup laptops (one at least). This precautionary measure mitigates the risk of a Zoom session crashing due to potential internet connection issues, especially if the host's connection, typically originating from the room itself, fails. Such occurrences have previously disrupted defenses, necessitating the recreation of a Zoom room and delaying the defense while awaiting the arrival of the remote jury and audience.
 
 Note that for any reservation you will need to give your name, surname, mail address, phone number, the name·s of your PhD supervisor·s, the approximate number of people to accommodate, and whether you will need video conferencing.
 

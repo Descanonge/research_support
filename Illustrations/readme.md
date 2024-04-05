@@ -7,4 +7,6 @@ Based on experience, here are some software names that can help you in this ende
 - **Keynote**, **Microsoft PowerPoint**, or **LibreOffice**: Sometimes, simplicity is key. These presentation software options can be efficient for creating straightforward and visually appealing illustrations or slides.
 - **ParaView**: This software offers a free license and is both versatile and powerful. It allows for the visualization of complex arrays of data, although it may be challenging to use initially.
 
-Add your find and expertise, either in a section below, or its own document if there is much to say.
+It's important to note that PDF files are typically lighter than PNG or JPEG images, which can significantly reduce the size of your manuscript (but unfortunately not your humor). Additionally, PDF images can be manually edited within any editor using SVG files, as they are scriptable objects (useful when in the rush for a presentation).
+
+Feel free to add your find and expertise, either in a section below, or its own document if there is much to say.

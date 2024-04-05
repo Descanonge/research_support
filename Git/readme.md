@@ -4,14 +4,14 @@ Some of the key subjects you might need or want to check out.
 
 ## Git
 
-[Git](git.md)
+[Git](Using_github_guide.md)
 
 ## Bash
 
 
 ## Python
 
-[Setting up](Python/setting_up.md)
+[Setting up](setting_up_guide.md)
 
 ## Writing
 

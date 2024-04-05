@@ -1,4 +1,3 @@
-# Ocean Colour
 
 This mini-guide stems from encountering some confusion when discussing with collaborators about which kind of Chlorophyll (Chl) data we were using. 
 To avoid future headaches, here is a small overview of the current state of distributed ocean colour data, mainly Chl.

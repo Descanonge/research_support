@@ -1,4 +1,6 @@
-### Formats and engines
+# TeX variants
+
+## Formats and engines
 
 TeX is the original system. Not used directly anymore, but serves as the base of everything else.
 
@@ -12,7 +14,7 @@ Another engine is **XeTeX**, designed to select fonts more easily.
 
 The **LuaTeX** engine also supports selecting fonts, and also opens the insides of TeX by using the Lua scripting language. That makes for easier programming, though it is mostly aimed at package developers and more recent additions to the LaTeX kernel also allows for more complex programming.
 
-### What to use?
+## What to use?
 
 Which one do I choose? Most importantly, XeTeX and LuaTeX support Unicode characters in your files, which might cause trouble for pdfTeX. I would thus avoid pdfTeX and put as much weĩrd lettɇrs as I wånt.
 XeTeX and LuaTeX are pretty equivalent, with maybe a slight advantage for LuaTeX which is now the default engine of the LaTeX development team. Be sure to look at the documentation of the packages you use that should specify the differences in features (for example for packages [microtype](https://ctan.org/pkg/microtype) or [babel-french](https://ctan.org/pkg/babel-french) out the top of my head).

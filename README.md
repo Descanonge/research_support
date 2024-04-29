@@ -8,8 +8,8 @@ Hopefully it will help to share knowledge between lab members.
 Guides and collections of tips and tricks are kept as files, sorted in folders by themes. (We may implement a way to obtain an index as well.)
 Questions can be asked (and answered) by anyone by using the github issues.
 
-For newcomers, we highlight the [guides here](intro) which should cover the bases, in particular the [Welcome_guide_strangers](Welcome_guide_strangers.md guide.md>) for our friends coming from outside France.
-For those at LOCEAN, the [guides here](Administrative/readme.md) contain more specific information and links to other internal documentations.
+For newcomers, we may highlight the [introductory guide](Introductory_guide.md) which should cover the bases, and also [this guide](Administrative/Welcome_guide_strangers.md) for our friends coming from outside France.
+For those at LOCEAN, the guides in [Administrative](Administrative/readme.md) contain more specific information and links to other internal documentations.
 
 ## Contributing
 

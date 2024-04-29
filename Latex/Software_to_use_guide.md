@@ -1,8 +1,9 @@
-### Overleaf
+# Overleaf
 [Overleaf](https://www.overleaf.com/) provides a straightforward way to begin using LaTeX. It is free to use and requires no download as it is an online tool with no need for installing external libraries. Overleaf features a convenient button for synchronizing with GitHub, which is useful for easy versioning of your manuscript.
 
 However, it's worth noting that the developers recently (as of the end of 2023) reduced the compilation time of documents, which can severely limit the writing of lengthy documents such as a PhD manuscript. For this reason, it may be recommended to use PLM instead or a local distribution of LaTeX in some case. 
-### PLM 
+
+# PLM 
 We recommend using the [PLM instance](https://plmlatex.math.cnrs.fr/login), accessible with an institutional login. You can find more information on its [documentation](https://forum.math.cnrs.fr/t/documentation-plmlatex/542).
 You should note that, like the free Overleaf version, github/gitlab/dropbox integration is **not** available.
 But contrary to Overleaf, you do have access to more than one collaborator (unlimited actually), the compilation time can exceed 1mn (up to 10mn), and you have access to the modifications history.
@@ -12,11 +13,11 @@ But contrary to Overleaf, you do have access to more than one collaborator (unli
 > You can also download regularly your source code (in Menu > Source), but this is cumbersome.
 > *Don't take any chance with your thesis manuscript!*
 
-### Distribution
+# Distribution
 
 You need to have the engines, the packages (La)TeX code, etc. To help there you typically use a distribution (which is different from picking [[Engines_guide]]) that ship all of that nicely.
 
-#### TeX Live
+## TeX Live
 
 On Unix, TeX Live is the go-to distribution, installed through the package manager.
 You can install **everything** with the package `texlive-full` but this can be heavy (multiple GBs).
@@ -30,16 +31,16 @@ If you do have the documentation installed, be sure to check the `texdoc` softwa
 TeX Live is released yearly. This ensure minimal clashes between packages (because there is no real version control in LaTeX packages), but you might not have the latest version available of a package.
 If this is really a problem, you can download the latest version of the `.sty` package and place it in your document folder or `$TEXMFHOME`.
 
-#### MiKTeX
+## MiKTeX
 
 MiKTeX is available on Windows, as well as on MacOS and some distributions of Unix.
 It contains the editor TeXworks.
 
-#### MacTeX
+## MacTeX
 
 Equivalent of TeX Live specifically tailored for MacOS. It contains Mac compatible software like TeXShop.
 
-### Programs
+# Programs
 
 You might know that running latex once is sometimes not enough, like if you have cross-references, a table of contents, a bibliography, etc.
 Some software can take care of that complexity for you. Most GUI applications should allow you to configure the compilation appropriately. It might rely on the tools below.

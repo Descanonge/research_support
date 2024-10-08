@@ -17,22 +17,21 @@ In practice, there is one of them that act as the master version, the 'real' ver
 
 Github offers to store your repository and features such as viewing/editing the code, engaging in discussions, and facilitating collaboration.
 Note that Github was bought by Microsoft and is thus operating on their servers (it is free though).
-Gitlab is a similar service but let your organization run the servers. The IN2P3 (a particle physics institute) has an instance open to all researchers in the [EduGain federation](https://technical.edugain.org/status), which in France includes institutions within this [list](https://services.renater.fr/federation/introduction/la-federation-education-recherche/fer-idps) (you are most likely on there).
-Both are equivalent in terms of features, [gitlab.in2p3.fr](https://gitlab.in2p3.fr) is the recommended service for work-related projects, even though it is only for researchers (anyone can still see your project if given the link).
+Gitlab is a similar service but let your organization run the servers.
 
 ## How to I work with it ?
 
 ### The Editor
 
 You can do a lot of things directly from Github or Gitlab by finding the 'add file' and 'edit' buttons. You can also use a more fully fledged code editor / IDE. In Gitlab it will be suggested as the 'Web IDE' when clicking the blue 'Edit' button. On Github you can find it on the main page of the repository, by clicking on the green '<> Code' button, then the 'Codespace' tab.
-Both editors seems essentially the same, though the IN2P3 Gitlab instance could not open a terminal and run commands (maybe because I was using Firefox?).
+Both editors seems essentially the same, though the *REDACTED* could not open a terminal and run commands (maybe because I was using Firefox?).
 The editor is based on Visual Studio Code so you might feel right at home[^1].
 
 > Little tip: split the window in two (button on top right) to have the preview of how the markdown is going to look.
 
 However, you might prefer using your own editor, on your own computer.
 If the repository already exists on the server (you can create a repository from there)[^2], you must '*clone*' it on your computer.
-The address will appear in the '<> Code' or 'Clone' button. It is either `https://gitlab.in2p3.fr/<username>/<project>.git` or `https://github.com/<username>/<project>.git`.
+The address will appear in the '<> Code' or 'Clone' button. It is either *REDACTED* or `https://github.com/<username>/<project>.git`.
 
 [^1]: uh technically 🤓 VS Code was created on web technology making this kind of stuff possible. Note you can similarly connect to your Github account from VS Code.
 

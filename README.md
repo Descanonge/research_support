@@ -9,7 +9,6 @@ Guides and collections of tips and tricks are kept as files, sorted in folders b
 Questions can be asked (and answered) by anyone by using the github issues.
 
 For newcomers, we may highlight the [introductory guide](Introductory_guide.md) which should cover the bases, and also [this guide](Administrative/Welcome_guide_strangers.md) for our friends coming from outside France.
-For those at LOCEAN, the guides in [Administrative](Administrative/readme.md) contain more specific information and links to other internal documentations.
 
 ## Contributing
 
@@ -24,7 +23,7 @@ Include links and a description of the original resources if possible.
 ## Some guidelines
 
 Please try to keep each issue on a single question/topic.
-Before opening an issue, please look wether your question has already been asked.
+Before opening an issue, please look whether your question has already been asked.
 If an issue already exists but has no answer, don't hesitate to 'bump' it by replying to it.
 
 When a question has been resolved, please consider saving the proposed solution in the repository, in an existing file or a new one.
@@ -34,6 +33,7 @@ In any case, please place a link to the issue.
 If a solution already exists but an alternative comes up, please keep the old solution and specify it as an alternative or as obsolete if necessary.
 
 documents: name with _tips, _guide, _example ?
+
 ## Suggestions or ideas to cover
 
 - [ ] microsoft office, comment acheter ?
@@ -41,8 +41,6 @@ documents: name with _tips, _guide, _example ?
 - [ ] CSD documentation
 
 - [ ] useful bash scripts
-
-- [ ] where data, what are the repo
 
 - [ ] bibliography tools
 

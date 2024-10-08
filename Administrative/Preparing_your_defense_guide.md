@@ -7,14 +7,14 @@ Some tips for your PhD defense.
 **It is recommended to do this in advance!**
 Some times of the year can be busy and finding a room can be tricky.
 
-You can contact <isabelle.bauwe@sorbonne-universite.fr> it the UFR TEB. She manages the conference room of the UFR (46-00 2nd floor, for about 60 people?), but she can also help book a room elsewhere.
+You can contact *REDACTED* of the UFR TEB. She manages the conference room of the UFR (46-00 2nd floor, for about 60 people?), but she can also help book a room elsewhere.
 
 Another nice choice is the lecture hall Charpak (22-33 at level 0, for about 60+ people?). It is managed by the LPNHE lab; you can ask for a reservation here: https://lpnhe.in2p3.fr/limesurvey/index.php.
 
 You can book other lecture halls in Jussieu (such as Astier or Durand in the Esclangon building, or any hall at the base of each tower). They generally have a good projection and sound system and can accommodate more people.
-You can do the reservation by contacting <sciences-DLM-planning@sorbonne-universite.fr>.
+You can do the reservation by contacting *REDACTED*
 
-Both the UFR room and Charpak hall should be equipped for video conferencing **but this is not the case for every room/lecture hall!** If not equipped, you must make an additional reservation for the equipment (microphones, camera), ask either Isabelle or sciences-DLM-planning.
+Both the UFR room and Charpak hall should be equipped for video conferencing **but this is not the case for every room/lecture hall!** If not equipped, you must make an additional reservation for the equipment (microphones, camera), ask either *REDACTED*.
 
 In any case it is best to check if everything is working before the defense. Ask if there are availabilities the days before, and make the reservation so that you have time to setup and check things before the defense.
 The Sorbonne website indicates that lecture halls are only available for 3 hours *but this is not the case*, tell them this is for a PhD defense and ask for a longer reservation.
@@ -25,6 +25,7 @@ Don't hesitate to ask for the phone of the 'appariteurs' (they will open the roo
 It is advisable to adhere to the guidelines provided on the ADUM website. Two key steps to remember include: i) printing the blank Procès-Verbal form, which will be completed by the committee during the defense, and ii) sending the 'DÉLÉGATION DE SIGNATURE AU PRÉSIDENT DU JURY DE SOUTENANCE' for signature to jury members participating remotely, and subsequently transmitting it to the future president of the jury.
 
 Providing water to the jury members during the defense is always appreciated. Consider providing water bottles or containers for this purpose. Additionally, it is advisable to print copies of the manuscript for reference during the defense. While some senior supervisors may recommend providing one manuscript to each jury member, this approach is debatable, particularly since final corrections may be made after the defense.
+
 ## During the defense
 
 All the checking in the world won't protect you from random and weird technical problems though. It might be a good idea to have a backup plan for things that could break: internet (ethernet, eduroam, 4G ?), your slides (have you a pdf backup? powerpoint? have you videos or animations that could not work? slides exported in other format breaking some figures?), video conferencing (backup mic), or even your laptop!
@@ -48,14 +49,14 @@ This is surely the most awaited part of your defense!
 But it is of course **not mandatory** by any means!
 
 If the weather is good enough you can do it on the Jussieu ground floor / esplanade. The courtyard between 45 and 55 is protected from the rain if needed.
-You can ask for tables at <sciences-DLM-planning@sorbonne-universite.fr>. Give them the day and hours, number of tables, and the location.
+You can ask for tables at *REDACTED*. Give them the day and hours, number of tables, and the location.
 
 Otherwise the room 45-55 417 is open to reservations in the LOCEAN intranet, it can be a little small though.
 
-You should find trash bags somewhere in conviviality areas, if not ask Moussa.
+You should find trash bags somewhere in conviviality areas, if not ask *REDACTED*.
 Some senior PhDs might already have some table cloth, ask around.
 
-The IPSL has glasses, plates, cutlery, etc at 45-55 2nd floor. You can ask Stéphanie Boniface by mail to borrow them. You will have to wash them and place them back (the evening or morning after). There is a dishwasher though.
+The IPSL has glasses, plates, cutlery, etc at 45-55 2nd floor. You can ask *REDACTED* by mail to borrow them. You will have to wash them and place them back (the evening or morning after). There is a dishwasher though.
 
 Champagne glasses ?
 
